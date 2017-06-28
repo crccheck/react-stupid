@@ -4,7 +4,7 @@
   "description": "A simple React thing for when you want something in React",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "mkdir -p lib && babel Thing.js --out-file lib/index.js"
+    "prepare": "mkdir -p lib && babel Thing.js --out-file lib/index.js"
   },
   "repository": {
     "type": "git",
