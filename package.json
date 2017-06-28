@@ -1,8 +1,8 @@
 {
   "name": "react-thing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0-0",
+  "description": "A simple React thing for when you want something in React",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "mkdir -p lib && babel Thing.js --out-file lib/index.js"
   },
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/crccheck/react-thing.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "lorem",
+    "placeholder",
+    "dummy",
+    "helloworld"
+  ],
   "author": "Chris Chang <c@crccheck.com> (https://crccheck.com/blog)",
   "license": "ISC",
   "bugs": {
