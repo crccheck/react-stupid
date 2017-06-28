@@ -1,0 +1,25 @@
+{
+  "name": "react-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "mkdir -p lib && babel Thing.js --out-file lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crccheck/react-thing.git"
+  },
+  "keywords": [],
+  "author": "Chris Chang <c@crccheck.com> (https://crccheck.com/blog)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crccheck/react-thing/issues"
+  },
+  "homepage": "https://github.com/crccheck/react-thing#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1"
+  }
+}
