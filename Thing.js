@@ -1,8 +1,8 @@
 const React = require('react')
 
 
-function Thing() {
+module.exports = function Thing() {
   return (
-    <div class="Thing">I am a react thing</div>
+    <div className="Thing">I am a React Thing</div>
   )
 }
