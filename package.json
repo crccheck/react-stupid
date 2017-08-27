@@ -1,10 +1,12 @@
 {
   "name": "react-thing",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A simple React thing for when you want something in React",
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "mkdir -p lib && babel Thing.js --out-file lib/index.js"
+    "prepare": "mkdir -p lib && babel Thing.js --out-file lib/index.js",
+    "test": "jest",
+    "tdd": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -24,11 +26,8 @@
   },
   "homepage": "https://github.com/crccheck/react-thing#readme",
   "devDependencies": {
-    "babel-jest": "^20.0.3",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
-    "jest": "^20.0.4",
-    "react": "^15.6.1",
-    "react-test-renderer": "^15.6.1"
+    "react": "^15.6.1"
   }
 }
