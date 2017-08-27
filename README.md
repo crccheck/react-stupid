@@ -1,5 +1,6 @@
 React Thing
 ===========
+[![Build Status](https://travis-ci.org/crccheck/react-thing.svg?branch=master)](https://travis-ci.org/crccheck/react-thing)
 
 This is a dummy component designed to be a hello world example.
 
