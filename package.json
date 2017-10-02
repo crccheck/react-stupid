@@ -4,7 +4,7 @@
   "description": "A simple React thing for when you want something in React",
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "mkdir -p lib && babel Thing.js --out-file lib/index.js",
+    "prepare": "mkdir -p lib preact && babel Thing.js > lib/index.js && BABEL_ENV=preact babel Thing.js > preact/index.js",
     "test": "jest",
     "tdd": "jest --watch"
   },
@@ -14,6 +14,7 @@
   },
   "keywords": [
     "react",
+    "preact",
     "lorem",
     "placeholder",
     "dummy",
@@ -28,10 +29,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-jest": "^21.2.0",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-replace-identifiers": "^0.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "jest": "^21.2.1",
+    "preact": "^8.2.5",
     "react": "^16.0.0",
     "react-test-renderer": "^16.0.0"
-  }
+  },
+  "dependencies": {}
 }
