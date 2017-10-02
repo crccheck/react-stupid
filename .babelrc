@@ -1,10 +1,28 @@
 {
   "presets": [
-    "react",
     ["env", {
       "targets": {
         "browsers": ["last 3 versions"]
       }
     }]
-  ]
+  ],
+  "plugins": [
+    ["transform-react-jsx", { "pragma":"React.createElement" }]
+  ],
+  "env": {
+    "preact": {
+      "plugins": [
+        ["transform-react-jsx", { "pragma":"preact.h" }],
+        ["replace-identifiers", {
+          "React": "preact"
+        }],
+        ["module-resolver", {
+          "root": ["."],
+          "alias": {
+              "react": "preact",
+          }
+        }]
+      ]
+    }
+  }
 }
