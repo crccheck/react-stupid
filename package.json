@@ -33,7 +33,6 @@
     "babel-plugin-replace-identifiers": "^0.1.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1",
     "jest": "^21.2.1",
     "preact": "^8.2.5",
     "react": "^16.0.0",
